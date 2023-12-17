@@ -1,0 +1,256 @@
+@media only screen and (max-width: 1280px) {
+    .audience .audience_nav {
+        margin-left: 10px;
+    }
+    .audience .audience_nav ul {
+        width: 80%;
+    }
+    .audience .audience_nav li {
+        margin-right: 5px;
+    }
+    .features .millions {
+        background-size: 345px;
+        background-position: right 200px center;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+    .audience .audience_nav {
+        margin-left: 5px;
+    }
+    .features .millions {
+        background-size: 345px;
+        background-position: right 200px center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav_toggle {
+        display: inline-block;
+    }
+    .top_nav ul{
+        display: none;
+    }
+    #nav_toggle:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .top_nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(245, 69, 221);
+        opacity: .9;
+        padding: 5%;
+        max-width: 200px;
+        height: 70%;
+    }
+    .top_nav li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .top_nav ul a {
+        color: rgb(11, 11, 237);
+    }
+    .connection .container {
+        width: 70%;
+        margin-left: 20px;
+    }
+    .audience {
+        height: 1200px;
+    }
+    .audience .audience_nav ul {
+        flex-wrap: wrap;
+        min-width: 300px;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .audience .audience_nav li {
+        margin-bottom: 20px;
+    }
+    .start .get {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav_toggle {
+        margin-left: 30px;
+    }
+    .promo {
+        background-size: 554px;
+        background-position: bottom 70px right;
+    }
+    .promo h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .promo_btns {
+        display: inline;
+    }
+    .btn_primary {
+        margin-bottom: 20px;
+    }
+    .connection .container {
+        margin-left: 5px;
+    }
+    .connection .connect_nav {
+        margin: 0;
+    }
+    .connection .connect_nav ul {
+        flex-wrap: wrap;
+        min-width: 300px;
+        justify-content: center;
+    }
+    .audience .audience_nav img {
+        width: 40%;
+        height: 40%;
+        margin-left: 40px;
+    }
+    .audience .audience_nav li {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    .audience .audience_nav li > p {
+        width: 80%;
+        font-size: 20px;
+    }
+    .features .millions {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-size: 145px;
+    }
+    .start .get {
+        margin-left: 5px;
+    }
+    .start .get h2 {
+        margin-left: 5px;
+    }
+    .start .get p {
+        padding-left: 5px;
+    }
+    .start .get .buttom {
+        margin-left: 195px;
+    }
+    #get_text {
+        padding-left: 120px;
+        font-size: 12px;
+    }
+    .start .get .buttom input {
+        width: 285px;
+    }
+    .bootom .container{
+        margin-left: 100px;
+    }
+    .bootom .bootom_top .wraper2 {
+        margin-left: 0;
+    }
+    .bootom .bootom_top {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .top_buttn {
+        display: none;
+    }
+    .promo h1 {
+        font-size: 35px;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    .promo p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .promo_btns {
+        margin-top: 30px;
+    }
+    .audience {
+        height: 846px;
+    }
+    .audience h3 {
+        font-size: 18px;
+    }
+    .audience h2 {
+        font-size: 25px;
+        height: 50px;
+        padding-bottom: 15px;
+        width: 50%;
+        line-height: 24px;
+    }
+    .audience p {
+        width: 50%;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .audience .audience_nav li {
+        width: 25%;
+        height: 25%;
+    }
+    .audience .audience_nav li > p {
+        font-size: 14px;
+    }
+    .features .millions {
+        margin-left: 20px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        background: none;
+    }
+    .features .millions h2 {
+        width: 70%;
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 15px;
+    }
+    .features .millions p {
+        width: 60%;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .start .get {
+        background: none;
+        margin-left: 5px;
+    }
+    .start .get h2 {
+        font-size: 30px;
+        padding-top: 40px;
+        padding-left: 25px;
+    }
+    .start .get p {
+        width: 80%;
+        padding-left: 5px;
+        margin-left: 40px;
+        padding-bottom: 0;
+    }
+    #get_text {
+        display: none;
+    }
+    .start .get .buttom {
+        margin-left: 5px;
+        display: inline;
+    }
+    .start .get .buttom input {
+        width: 185px;
+        font-size: 14px;
+    }
+    .bootom .container{
+        margin-left: 5px;
+    }
+    #bootom_text {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .bootom .bootom_top .wraper2 {
+        display: none;
+    }
+    .footer .container {
+        display: inline;
+    }
+    .footer .footer_social {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}
